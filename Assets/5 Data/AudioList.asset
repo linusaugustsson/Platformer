@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03754368a6dd89542b47effe7940ebca, type: 3}
+  m_Name: AudioList
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - name: push_loop
+    entries:
+    - clip: {fileID: 8300000, guid: da497b9962079f44bbdd4e980288b712, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.4
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -0.5
+  - name: push_end
+    entries:
+    - clip: {fileID: 8300000, guid: fdaf3c9409c924342aaf1e5193e7b59d, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.4
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -0.5
+  - name: fireplace_crackle
+    entries:
+    - clip: {fileID: 8300000, guid: 6f403adb9e585934b809afd64755055b, type: 3}
+      looping: 1
+      priority: 0
+      volume: 0
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: 0
+  - name: timer_eye_beep
+    entries:
+    - clip: {fileID: 8300000, guid: b796ea48ace95384f950f456841dfbff, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.9
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: timer_eye_open
+    entries:
+    - clip: {fileID: 8300000, guid: 5810816fe7666a445842d8ca0f4f95f8, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.9
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: timer_eye_close
+    entries:
+    - clip: {fileID: 8300000, guid: 1dfa0beeefb480e47827456742b6844c, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.9
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: door_close
+    entries:
+    - clip: {fileID: 8300000, guid: 43b6a1a49af23b842915a3b43d99fd38, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.5
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -0.5
+  - name: door_open
+    entries:
+    - clip: {fileID: 8300000, guid: 758c80165bb6717408257350bb760c83, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.5
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -0.5
+  - name: door_unlock
+    entries:
+    - clip: {fileID: 8300000, guid: b82daee6d9d5d194dbc97f4a8a73d8c9, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.4
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -0.5
+  - name: player_hurt
+    entries:
+    - clip: {fileID: 8300000, guid: 5c32880915664a447bf221e63411a13b, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.4
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_jump
+    entries:
+    - clip: {fileID: 8300000, guid: 998481cb7d433514ea0c701f8618f85d, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.45
+      minPitch: 0.2
+      maxPitch: -0.2
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_dash
+    entries:
+    - clip: {fileID: 8300000, guid: d3012b27e1a68ad4081288cc74e93e66, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.4
+      minPitch: 0.05
+      maxPitch: -0.05
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_glasses_on
+    entries:
+    - clip: {fileID: 8300000, guid: 3d5f620751324dd4cb059a35047d19a5, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_glasses_off
+    entries:
+    - clip: {fileID: 8300000, guid: cffe57a613b60864584b58f5e7f80a04, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_got_it
+    entries:
+    - clip: {fileID: 8300000, guid: 50a07658ed907db4ab3ee08f1da67ce1, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_spider_get
+    entries:
+    - clip: {fileID: 8300000, guid: a7b74aebae3bc39408d6e9b2d15431d4, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: player_cool
+    entries:
+    - clip: {fileID: 8300000, guid: b06268b3a201130489781f41066aace0, type: 3}
+      looping: 0
+      priority: -128
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  music:
+  - name: TheVoid
+    entries:
+    - clip: {fileID: 8300000, guid: 73e924bb05f89914abe4a426ceb0c3c6, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.7
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: TheVoidBoss
+    entries:
+    - clip: {fileID: 8300000, guid: b55dfefa43b917046af6f4a622b0c16b, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.7
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: IntroCottage
+    entries:
+    - clip: {fileID: 8300000, guid: 25b3efc16664b5440b23533fe2629ed1, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: Cottage
+    entries:
+    - clip: {fileID: 8300000, guid: 2cb7d2030bd83e74f93c1522f281b8be, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.6
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: IntroSpiderBoss
+    entries:
+    - clip: {fileID: 8300000, guid: c28a597c119b0f242bc041327649fe12, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.9
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: SpiderBoss
+    entries:
+    - clip: {fileID: 8300000, guid: 5c0e64796e4f191479383775abd9a3bf, type: 3}
+      looping: 1
+      priority: 0
+      volume: -0.9
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  - name: CrazyTaxi
+    entries:
+    - clip: {fileID: 8300000, guid: feb04455eda4f1742aac0601155d353f, type: 3}
+      looping: 0
+      priority: 0
+      volume: -0.8
+      minPitch: 0
+      maxPitch: 0
+      panStereo: 0
+      spatialBlend: -1
+  prefab: {fileID: 0}
+  audioManager: {fileID: 0}

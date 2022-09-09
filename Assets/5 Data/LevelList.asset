@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49e77c2915da2c45b786c58eec07abb, type: 3}
+  m_Name: LevelList
+  m_EditorClassIdentifier: 
+  startingLevel: 
+  levels:
+  - name: Stage 1
+    displayName: FEAR
+    sentence: "Throughout my life there have been many things I've had to overcome,
+      but some cases have impacted my life more than others. These are the turning
+      points of my downward spirals\u2026 the moments where I turned something bad
+      into something I could use... the moments where I took control."
+    playerPosition: {x: 3.9, y: 0.2, z: -0.7}
+    levelPrefab: {fileID: 1165310825470493197, guid: af705da27923af145b6d8347180dcce3, type: 3}
+    musicName: 
+  - name: Stage 2
+    displayName: JUDGEMENT
+    sentence: "By overcoming fear, I\u2019ve learned to reach new heights"
+    playerPosition: {x: -2.64, y: 0, z: 4.42}
+    levelPrefab: {fileID: 5439567361473098906, guid: f8829d007d690f84d9ccda28403dbc67, type: 3}
+    musicName: 
+  - name: Stage 3
+    displayName: SHADOWS
+    sentence: "By overcoming judgment, I\u2019ve learned to see things in a different
+      light"
+    playerPosition: {x: 3.87, y: 1.087, z: 1.73}
+    levelPrefab: {fileID: 1747487776994189300, guid: 437ee2a045609e9409407de7763f736d, type: 3}
+    musicName: 
+  - name: Stage 4
+    displayName: THE VOID
+    sentence: "By overcoming my shadows, I\u2019ve learned to soar freely"
+    playerPosition: {x: -0.784, y: 1.468, z: -0.166}
+    levelPrefab: {fileID: 8515438537100974456, guid: 9303fc09143645645a1c2a7764a214aa, type: 3}
+    musicName: 
